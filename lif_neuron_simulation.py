@@ -61,4 +61,6 @@ plt.plot(time, V)
 plt.title("Leaky Integrate-and-Fire Neuron Simulation")
 plt.xlabel("Time (ms)")
 plt.ylabel("Membrane Voltage (mV)")
+
+plt.savefig("lif_simulation.png")   # saves the image
 plt.show()
