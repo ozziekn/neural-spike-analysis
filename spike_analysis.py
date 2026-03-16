@@ -37,6 +37,7 @@ plt.title("Spike Raster Plot")
 plt.xlabel("Time (s)")
 plt.yticks([])
 
+plt.savefig("spike_raster.png")
 plt.show()
 
 # -----------------------------
